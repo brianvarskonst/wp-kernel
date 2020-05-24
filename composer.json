@@ -4,14 +4,15 @@
     "license": "MIT",
     "type": "wordpress-mu-plugin",
     "require": {
-        "php": "^7.4"
+        "php": "^7.4",
+        "symfony/dependency-injection": "^5.0"
     },
     "require-dev": {
         "inpsyde/php-coding-standards": "0.13.4"
     },
     "autoload":{
         "psr-4": {
-            "Wordpress\\Kernel" : "src/"
+            "Wordpress\\Kernel\\" : "src/"
         }
     },
     "config": {
