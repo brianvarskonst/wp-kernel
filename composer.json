@@ -1,0 +1,27 @@
+{
+    "name": "brianvarskonst/wp-kernel",
+    "description": "WordPress Plugin that implements Symfony Http Kernel compatible Components",
+    "license": "MIT",
+    "type": "wordpress-mu-plugin",
+    "require": {
+        "php": "^7.4"
+    },
+    "require-dev": {
+        "inpsyde/php-coding-standards": "0.13.4"
+    },
+    "autoload":{
+        "psr-4": {
+            "Wordpress\\Kernel" : "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "classmap-authoritative": true,
+        "sort-packages": true,
+        "platform": {
+            "php": "7.4"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
