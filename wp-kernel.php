@@ -1,16 +1,16 @@
 <?php declare(strict_types=1);
 
-namespace Wordpress\DependencyInjection;
+namespace Wordpress\Kernel;
 
 /**
- * Plugin Name:       Wordpress Dependency Injection
- * Description:       WordPress Plugin that implements Symfony Dependency Injection Component
- * Plugin URI:        https://github.com/brianvarskonst/wp-dependency-injection
+ * Plugin Name:       Wordpress kernel
+ * Description:       WordPress Plugin that implements Symfony Http Kernel compatible Components
+ * Plugin URI:        https://github.com/brianvarskonst/wp-kernel
  * Author:            Brianvarskonst
  * Author URI:        https://github.com/brianvarskonst
  * Version:           1.0.0
  * License:           MIT
- * Text Domain:       wp-dependency-injection
+ * Text Domain:       wp-kernel
  * Requires PHP:      7.4
  */
 
@@ -35,3 +35,4 @@ if (!file_exists(__DIR__ . '/vendor/autoload.php') || !is_readable(__DIR__ . '/v
 }
 
 require __DIR__ . '/vendor/autoload.php';
+
