@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Wordpress\DependencyInjection\Bundle;
+namespace Wordpress\Kernel\Bundle;
 
 use Symfony\Component\DependencyInjection\ContainerAwareInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
